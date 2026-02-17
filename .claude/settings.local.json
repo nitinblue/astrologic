@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(python -m kundali_engine.main:*)",
-      "Bash(PYTHONIOENCODING=utf-8 python:*)"
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(sqlite3:*)",
+      "Bash(python -c:*)",
+      "Bash(python -m kundali_engine.core.database.init_db:*)",
+      "Bash(python -m kundali_engine.core.database.seed_reference_data:*)",
+      "Bash(python -m kundali_engine.core.database.migrate_v1:*)",
+      "Bash(pip install:*)",
+      "Bash(python3:*)",
+      "Bash(wc:*)"
     ]
   }
 }

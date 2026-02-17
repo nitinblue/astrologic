@@ -1,6 +1,8 @@
 ASTRO_75665917_NitinJain.pdf
 Nitin_kundali.txt
 astro.db
+astro_v2.db
+*.bsp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
